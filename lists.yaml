@@ -28,7 +28,7 @@
 - name: sp-YTB下载-新
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.pkg
   version: '1'
-  sha256: bac0301c48d9844883a1b24179744fcbab6c3ed3ed690af21ef3256db8620c81
+  sha256: 376e8e56345652a3d661f43091eb16cb038e0cbed9006952b595b8d0cda6ee84
   author: spworker2026
   introduction: 新版 SP 原生 QML 插件，支持选择一、二级代理下载视频和字幕。
 - name: sp-在线翻译-新
