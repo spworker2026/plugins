@@ -26,14 +26,14 @@
   package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/QhnlOnbFMYqybgni.pkg
   version: 3
 - name: sp-YTB下载-新
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.pkg
-  version: '1'
-  sha256: 376e8e56345652a3d661f43091eb16cb038e0cbed9006952b595b8d0cda6ee84
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v2.pkg
+  version: '2'
+  sha256: dbbf4a104debcc5b330c12519e7271fd374e4af006960a400491254794e069b0
   author: spworker2026
   introduction: 新版 SP 原生 QML 插件，支持选择一、二级代理下载视频和字幕。
 - name: sp-在线翻译-新
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.pkg
-  version: '1'
-  sha256: 446888acf2f7cca44b344883a8db980fc574601ec4526cd42e3211599479a5a6
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v2.pkg
+  version: '2'
+  sha256: 5bda55e081b2057590a4bb5f51fb83c41acbeddf5617e5b88a6c6c89c72a8d58
   author: spworker2026
   introduction: 新版 SP 原生 QML 插件，通过谷歌或必应接口翻译文本。
