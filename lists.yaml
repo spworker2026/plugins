@@ -1,12 +1,6 @@
 - name: sp-随浏网页
   package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/yLkSLlvSRiVvSpHP.pkg
   version: 5
-- name: sp-执行脚本
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/jaMazDHxsPlvhWcj.pkg
-  version: 2
-- name: sp-重启网络接口
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/sp-重启网络接口.pkg
-  version: 1
 - name: sp-网盘管理
   package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/RygrMlNzLgluyljB.pkg
   version: 12
@@ -26,14 +20,26 @@
   package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/QhnlOnbFMYqybgni.pkg
   version: 3
 - name: sp-YTB下载-新
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.pkg?sha=b5d23f940cca64551ad3e0a2c26ea63ed3e7282663fc9c13a30c138d47a44e6e
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.pkg?sha=e78a5660588cb985b3d483fe3a6de13a38cae1c9b51898fcd3fdc7b23b34be69
   version: '1'
-  sha256: b5d23f940cca64551ad3e0a2c26ea63ed3e7282663fc9c13a30c138d47a44e6e
+  sha256: e78a5660588cb985b3d483fe3a6de13a38cae1c9b51898fcd3fdc7b23b34be69
   author: spworker2026
   introduction: 新版 SP 原生 QML 插件，支持选择一、二级代理下载视频和字幕。
 - name: sp-在线翻译-新
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.pkg?sha=587870ab483fe870a597f680e7978181018403aa8fbc47df42619b0811924896
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.pkg?sha=c04182452de1da8adcca8368e1faebf546686a2addb1605b349fe25d512d7570
   version: '1'
-  sha256: 587870ab483fe870a597f680e7978181018403aa8fbc47df42619b0811924896
+  sha256: c04182452de1da8adcca8368e1faebf546686a2addb1605b349fe25d512d7570
   author: spworker2026
   introduction: 新版 SP 原生 QML 插件，通过谷歌或必应接口翻译文本。
+- name: sp-执行脚本-新
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.pkg?sha=cad04e01498b5c2daa80ccaedbccc7665989f7295d8c51f2816f84111c3c8678
+  version: '1'
+  sha256: cad04e01498b5c2daa80ccaedbccc7665989f7295d8c51f2816f84111c3c8678
+  author: spworker2026
+  introduction: 新版 SP 原生 QML 插件，支持执行、管理和自动运行 Python 脚本。
+- name: sp-重启网络接口-新
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-restart-network-interfaces-v1.pkg?sha=8d4701ba3c5d6a4e82379d459a51e4f149fe18179316e3ce8792fce1a6cb7e3d
+  version: '1'
+  sha256: 8d4701ba3c5d6a4e82379d459a51e4f149fe18179316e3ce8792fce1a6cb7e3d
+  author: spworker2026
+  introduction: 新版 SP 原生 QML 插件，通过系统公共能力重启网络接口。
