@@ -1,45 +1,60 @@
 - name: sp-随浏网页
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/yLkSLlvSRiVvSpHP.pkg
-  version: 5
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.pkg?sha=148f10941b90f93520e935ba77145a7dcfd0e5a281581119b94922f48bdf51c0
+  version: '1'
+  sha256: 148f10941b90f93520e935ba77145a7dcfd0e5a281581119b94922f48bdf51c0
+  author: spworker2026
+  introduction: 使用 SP 受管线路随机浏览网页，支持自动停止、流量限制和任务控制。
 - name: sp-网盘管理
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/RygrMlNzLgluyljB.pkg
-  version: 12
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloud-drive-manager-v1.pkg?sha=e029b094e2f0c99b8050c2c137e9e764d8bc30ee00e583377ed1dd47b6a95ea0
+  version: '1'
+  sha256: e029b094e2f0c99b8050c2c137e9e764d8bc30ee00e583377ed1dd47b6a95ea0
+  author: spworker2026
+  introduction: 管理多个网盘账户，支持文件列表、上传、下载、分享和常用文件操作。
 - name: sp-收发签到
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/sp-收发签到.pkg
-  version: 2
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-checkin-client-v1.pkg?sha=93c6e5563ad49512edc4f78f6c81937bec07c589f0b5155d70ce46423e970c64
+  version: '1'
+  sha256: 93c6e5563ad49512edc4f78f6c81937bec07c589f0b5155d70ce46423e970c64
+  author: spworker2026
+  introduction: 管理多个收发签到账户，保留邮件、网盘、管理和历史密钥等原有功能。
 - name: sp-火云隧道
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/vUBRelEWGLMCeOii.pkg
-  version: 3
-- name: sp-爬取节点
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/DeZGFKEDlMhLqqrp.pkg
-  version: 4
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloudflare-tunnel-v1.pkg?sha=0b7189507258802da332912e8db7403efb47142d79cda872e3cd55f94936c9ab
+  version: '1'
+  sha256: 0b7189507258802da332912e8db7403efb47142d79cda872e3cd55f94936c9ab
+  author: spworker2026
+  introduction: 管理 Cloudflare 隧道，首次使用时按当前平台可信下载并校验官方 cloudflared。
 - name: sp-管理Deno
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/BqilcvGZVvMMVEdx.pkg
-  version: 2
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-deno-manager-v1.pkg?sha=1eb1a008b9c96f68fd480212bdf17fcd85979848c4259857633a0b419d942218
+  version: '1'
+  sha256: 1eb1a008b9c96f68fd480212bdf17fcd85979848c4259857633a0b419d942218
+  author: spworker2026
+  introduction: 管理 Deno Deploy 账户、项目和域名，并通过 SP 公共网络流水线访问服务。
 - name: sp-命令操控
-  package: https://github.com/tonkreabry/plugins/raw/refs/heads/featre/QhnlOnbFMYqybgni.pkg
-  version: 3
-- name: sp-YTB下载-新
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.pkg?sha=e78a5660588cb985b3d483fe3a6de13a38cae1c9b51898fcd3fdc7b23b34be69
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-command-control-v1.pkg?sha=e929a3d6685cfb4a05fbf70daf46244915e44522bd4fc293ad7ebc0c063b14f9
   version: '1'
-  sha256: e78a5660588cb985b3d483fe3a6de13a38cae1c9b51898fcd3fdc7b23b34be69
+  sha256: e929a3d6685cfb4a05fbf70daf46244915e44522bd4fc293ad7ebc0c063b14f9
   author: spworker2026
-  introduction: 新版 SP 原生 QML 插件，支持选择一、二级代理下载视频和字幕。
-- name: sp-在线翻译-新
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.pkg?sha=c04182452de1da8adcca8368e1faebf546686a2addb1605b349fe25d512d7570
+  introduction: 提供原有命令解析、操控和结果返回能力，业务实现完全位于外置插件中。
+- name: sp-YTB下载
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.pkg?sha=a662304889724ff70912e64297a5d94591a89a219fc2ee1a6b10c3ad30f7eb5a
   version: '1'
-  sha256: c04182452de1da8adcca8368e1faebf546686a2addb1605b349fe25d512d7570
+  sha256: a662304889724ff70912e64297a5d94591a89a219fc2ee1a6b10c3ad30f7eb5a
   author: spworker2026
-  introduction: 新版 SP 原生 QML 插件，通过谷歌或必应接口翻译文本。
-- name: sp-执行脚本-新
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.pkg?sha=cad04e01498b5c2daa80ccaedbccc7665989f7295d8c51f2816f84111c3c8678
+  introduction: 支持选择一、二级代理解析和下载视频、音频及字幕。
+- name: sp-在线翻译
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.pkg?sha=c37602cb7f95a498bebb975f3783979723a09ba75c2681de13b14dd968560aad
   version: '1'
-  sha256: cad04e01498b5c2daa80ccaedbccc7665989f7295d8c51f2816f84111c3c8678
+  sha256: c37602cb7f95a498bebb975f3783979723a09ba75c2681de13b14dd968560aad
   author: spworker2026
-  introduction: 新版 SP 原生 QML 插件，支持执行、管理和自动运行 Python 脚本。
-- name: sp-重启网络接口-新
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-restart-network-interfaces-v1.pkg?sha=8d4701ba3c5d6a4e82379d459a51e4f149fe18179316e3ce8792fce1a6cb7e3d
+  introduction: 通过谷歌或必应接口翻译文本，并复用 SP 公共网络任务接口。
+- name: sp-执行脚本
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.pkg?sha=068ec4fac123a57f784f073afc266a311af3d4ebfb9c9b5c78fd5e55520ae8ab
   version: '1'
-  sha256: 8d4701ba3c5d6a4e82379d459a51e4f149fe18179316e3ce8792fce1a6cb7e3d
+  sha256: 068ec4fac123a57f784f073afc266a311af3d4ebfb9c9b5c78fd5e55520ae8ab
   author: spworker2026
-  introduction: 新版 SP 原生 QML 插件，通过系统公共能力重启网络接口。
+  introduction: 支持执行、管理和按设置自动运行 Python 脚本。
+- name: sp-重启网络接口
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-restart-network-interfaces-v1.pkg?sha=762f7f68689c09ef4fa7203d362ecaffebd238eaaea0113a0f371646a891a6f9
+  version: '1'
+  sha256: 762f7f68689c09ef4fa7203d362ecaffebd238eaaea0113a0f371646a891a6f9
+  author: spworker2026
+  introduction: 通过 SP 系统公共能力列出并重启网络接口。
