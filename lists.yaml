@@ -35,15 +35,15 @@
   author: spworker2026
   introduction: 提供原有命令解析、操控和结果返回能力，业务实现完全位于外置插件中。
 - name: sp-YTB下载
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.2.pkg?sha=2bd1938bf09ac53b6a17145c3cac952e89e95af4e36852cf7aafc13202b1ea64
-  version: '1.2'
-  sha256: 2bd1938bf09ac53b6a17145c3cac952e89e95af4e36852cf7aafc13202b1ea64
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.3.pkg?sha=0847f2cfa7c4226cd49da6e69778ca97f9555e998a7d06a77a3473fa655eff31
+  version: '1.3'
+  sha256: 0847f2cfa7c4226cd49da6e69778ca97f9555e998a7d06a77a3473fa655eff31
   author: spworker2026
   introduction: 支持选择一、二级代理解析和下载视频、音频及字幕。
 - name: sp-在线翻译
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.pkg?sha=c37602cb7f95a498bebb975f3783979723a09ba75c2681de13b14dd968560aad
-  version: '1'
-  sha256: c37602cb7f95a498bebb975f3783979723a09ba75c2681de13b14dd968560aad
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.1.pkg?sha=dbf52034ac59da25bb32c2ab746d77e223279aa56f1b94a12873c7eb6829bdb9
+  version: '1.1'
+  sha256: dbf52034ac59da25bb32c2ab746d77e223279aa56f1b94a12873c7eb6829bdb9
   author: spworker2026
   introduction: 通过谷歌或必应接口翻译文本，并复用 SP 公共网络任务接口。
 - name: sp-执行脚本
