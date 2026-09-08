@@ -55,12 +55,12 @@
   introduction: 通过谷歌或必应接口翻译文本，并复用 SP 公共网络任务接口。
   minimum_sp_version: 3.0-beta-2
 - name: sp-执行脚本
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.pkg?sha=d2106727dbac07a86ba5db5aa86ba7a3062930333ee9720fb542643d32feea62
-  version: '1'
-  sha256: d2106727dbac07a86ba5db5aa86ba7a3062930333ee9720fb542643d32feea62
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.1.pkg?sha=961990b7fa1180de98d0f47726740ac1a717cd4a52afe7080b5145d26ce25c3b
+  version: '1.1'
+  sha256: 961990b7fa1180de98d0f47726740ac1a717cd4a52afe7080b5145d26ce25c3b
   author: spworker2026
   introduction: 支持执行、管理和按设置自动运行 Python 脚本。
-  minimum_sp_version: 3.0-beta-1
+  minimum_sp_version: 3.0-beta-3
 - name: sp-重启网络接口
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-restart-network-interfaces-v1.pkg?sha=6116d40037c99cbecbe03e71c5bd1bd842b221f6713b30363a2554f46bf4884a
   version: '1'
