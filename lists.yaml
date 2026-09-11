@@ -69,10 +69,9 @@
   introduction: 通过 SP 系统公共能力列出并重启网络接口。
   minimum_sp_version: 3.0-beta-1
 - name: SP-谷歌网盘下载
-  package: https://github.com/ggwpcj/sp-plugin-library/releases/download/v1.2/sp-gdrive-downloader-v1.2.pkg
-  version: '1.2'
-  sha256: 06de2e435a5435294bf63f36a227b266be827a83c8e4a6ddcc85f0f17f788256
+  package: https://github.com/ggwpcj/sp-plugin-library/releases/download/v1.4/sp-gdrive-downloader-v1.4.pkg
+  version: '1.4'
+  sha256: ad0ddffcbefc1ba32571992cfbe1e7839e9d19f281ff684a29631b4065cc5b19
   author: ggwpcj
-  introduction: 谷歌网盘(Google Drive)文件下载插件：连接池保存常用链接，检索深度(全部解析/当前深度)，目录存储(原始层级/仅使用父级/当前目录)，表格模拟网页版整行单击选中、双击文件夹展开，线路默认二级代理并支持宿主核心内直连。适用
-    Windows/Linux。
+  introduction: 谷歌网盘(Google Drive)文件下载插件：解析性能大幅优化，文件夹分页拉取+直链构造，多层级大目录并行解析(并发限流)，单文件夹失败自动降级不中断，上千文件秒级解析；解析列表真实显示文件大小；检索深度(全部解析/当前深度)，目录存储(原始层级/仅使用父级/当前目录)，表格采用官方 PluginDataTable 交互——单击整行选中(高亮)、双击文件夹进入子目录、双击文件直接下载、右键菜单支持打开/下载/刷新/回根目录，点"开始下载"批量下载选中文件；双击/右键动作写入 SP diagnostic 日志便于排查；线路默认二级代理并支持宿主核心内直连。适用 Windows/Linux/Mac。
   source_catalog: https://raw.githubusercontent.com/ggwpcj/sp-plugin-library/main/lists.yaml
