@@ -41,9 +41,9 @@
   introduction: 提供原有命令解析、操控和结果返回能力，业务实现完全位于外置插件中。
   minimum_sp_version: 3.0-beta-1
 - name: sp-YTB下载
-  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.5.pkg?sha=d8403e0d3b2164c47d70e6cd374e1633d8a7c6342a9b5cf8553c2d64aeb824c4
-  version: '1.5'
-  sha256: d8403e0d3b2164c47d70e6cd374e1633d8a7c6342a9b5cf8553c2d64aeb824c4
+  package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.6.pkg?sha=c4e5bf5288db6a826143373bb1058766e27fea6c8dc28d70092377b261a4bf99
+  version: '1.6'
+  sha256: c4e5bf5288db6a826143373bb1058766e27fea6c8dc28d70092377b261a4bf99
   author: spworker2026
   introduction: 支持选择一、二级代理解析和下载视频、音频及字幕。
   minimum_sp_version: 3.0-beta-2
