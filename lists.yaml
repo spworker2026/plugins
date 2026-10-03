@@ -7,11 +7,11 @@
   minimum_sp_version: 3.0-beta-3
   api_version: 3
   releases:
-  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.8.pkg?sha=29e3b674ab14e91b085de90861f3a1943610d27d67868c0793786ad3fe557142
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.8.pkg?sha=f599ddb2c25ba4691331bd97032222a4f2606f56f9a4760e98c6942eeb0faffc
     version: '1.8'
-    api_version: 3
-    minimum_sp_version: 3.0-beta-3
-    sha256: 29e3b674ab14e91b085de90861f3a1943610d27d67868c0793786ad3fe557142
+    api_version: 5
+    minimum_sp_version: 3.0-beta-5
+    sha256: f599ddb2c25ba4691331bd97032222a4f2606f56f9a4760e98c6942eeb0faffc
 - name: sp-网盘管理
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloud-drive-manager-v1.pkg?sha=34273ce0f22e24a1dc7313dd9d52356b122e2a250aafb4bc2063bf8ad4bf6035
   version: '1'
