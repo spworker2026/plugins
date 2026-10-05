@@ -12,6 +12,11 @@
     api_version: 5
     minimum_sp_version: 3.0-beta-5
     sha256: f599ddb2c25ba4691331bd97032222a4f2606f56f9a4760e98c6942eeb0faffc
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.9.pkg?sha=020e03e34adfcf801bee56d1623e23c0b5f125e0d54e7e320c618c30a24501ab
+    version: '1.9'
+    api_version: 5
+    minimum_sp_version: 3.0-beta-5
+    sha256: 020e03e34adfcf801bee56d1623e23c0b5f125e0d54e7e320c618c30a24501ab
 - name: sp-网盘管理
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloud-drive-manager-v1.pkg?sha=34273ce0f22e24a1dc7313dd9d52356b122e2a250aafb4bc2063bf8ad4bf6035
   version: '1'
@@ -125,3 +130,8 @@
     api_version: 4
     minimum_sp_version: 3.0-beta-5
     sha256: 1abd65fbb47bdc39682aee2994a52c4a56d7e6e4517815df071cf193035b293d
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-update-linux-ab-system-v1.2.pkg?sha=1e945416049c908d9dbc9356cf05aadffeb20fbbeb5d5fca153656a4152af4cb
+    version: '1.2'
+    api_version: 4
+    minimum_sp_version: 3.0-beta-5
+    sha256: 1e945416049c908d9dbc9356cf05aadffeb20fbbeb5d5fca153656a4152af4cb
