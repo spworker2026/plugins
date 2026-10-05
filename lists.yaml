@@ -119,3 +119,9 @@
   api_version: 4
   minimum_sp_version: 3.0-beta-5
   sha256: df7114fefc1f676b4f3a26d7924b1ef88964bcf71fec4a9016cb6416644ff68b
+  releases:
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-update-linux-ab-system-v1.1.pkg?sha=1abd65fbb47bdc39682aee2994a52c4a56d7e6e4517815df071cf193035b293d
+    version: '1.1'
+    api_version: 4
+    minimum_sp_version: 3.0-beta-5
+    sha256: 1abd65fbb47bdc39682aee2994a52c4a56d7e6e4517815df071cf193035b293d
