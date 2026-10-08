@@ -170,3 +170,8 @@
     api_version: 6
     minimum_sp_version: 3.0-beta-8
     sha256: e8f1a194dc1bee323e445e9fcaaf607f9ccd56e1b412fd254df138d8ed650f45
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-update-linux-ab-system-v1.7.pkg?sha=8ecbff8791d6b47f29a79c5140a00888d63116bd7fc3eb0119b337e3c3e935c1
+    version: '1.7'
+    api_version: 6
+    minimum_sp_version: 3.0-beta-8
+    sha256: 8ecbff8791d6b47f29a79c5140a00888d63116bd7fc3eb0119b337e3c3e935c1
