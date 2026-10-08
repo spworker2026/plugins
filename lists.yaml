@@ -17,6 +17,11 @@
     api_version: 5
     minimum_sp_version: 3.0-beta-5
     sha256: 020e03e34adfcf801bee56d1623e23c0b5f125e0d54e7e320c618c30a24501ab
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.10.pkg?sha=6d3f238fb81023758f797fcc550968cfe941737b6433af85a159d538d022aafe
+    version: '1.10'
+    api_version: 5
+    minimum_sp_version: 3.0-beta-5
+    sha256: 6d3f238fb81023758f797fcc550968cfe941737b6433af85a159d538d022aafe
 - name: sp-网盘管理
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloud-drive-manager-v1.pkg?sha=34273ce0f22e24a1dc7313dd9d52356b122e2a250aafb4bc2063bf8ad4bf6035
   version: '1'
@@ -80,6 +85,11 @@
     api_version: 5
     minimum_sp_version: 3.0-beta-5
     sha256: e407e00e07919954b917210dd56f52ddf8ff95e75f20d55af6ab80af53a63367
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.13.pkg?sha=b9f1a7300a430526f0b841bbc176237c88b6fa8f75dd5bd57d61b1a259ce553e
+    version: '1.13'
+    api_version: 5
+    minimum_sp_version: 3.0-beta-5
+    sha256: b9f1a7300a430526f0b841bbc176237c88b6fa8f75dd5bd57d61b1a259ce553e
   candidate:
     package: https://raw.githubusercontent.com/spworker2026/plugins/main/candidate-packages/sp-ytb-download-v1.9.pkg?sha=4422adbf69d3053d2cd8ee7c6d6502fc193348c73824ba619b6119ac70a5dbc0
     version: '1.9'
@@ -155,3 +165,8 @@
     api_version: 6
     minimum_sp_version: 3.0-beta-6
     sha256: e1ecd219387d0374cec0ec2bc4bf9d7e5fa4a9d93ba45febb4cea1dc2f7052a0
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-update-linux-ab-system-v1.6.pkg?sha=e8f1a194dc1bee323e445e9fcaaf607f9ccd56e1b412fd254df138d8ed650f45
+    version: '1.6'
+    api_version: 6
+    minimum_sp_version: 3.0-beta-8
+    sha256: e8f1a194dc1bee323e445e9fcaaf607f9ccd56e1b412fd254df138d8ed650f45
