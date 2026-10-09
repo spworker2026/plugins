@@ -29,6 +29,12 @@
   author: spworker2026
   introduction: 管理多个网盘账户，支持文件列表、上传、下载、分享和常用文件操作。
   minimum_sp_version: 3.0-beta-1
+  releases:
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloud-drive-manager-v1.1.pkg?sha=bf36ff4008e63f6a2a0865a93772c02bf8a9432ccce5c379b5a98098b525c0c9
+    version: '1.1'
+    api_version: 4
+    minimum_sp_version: 3.0-beta-4
+    sha256: bf36ff4008e63f6a2a0865a93772c02bf8a9432ccce5c379b5a98098b525c0c9
 - name: sp-收发签到
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-checkin-client-v1.pkg?sha=643ebc287d8beffe55d7822b32b93b9870b6472cda6b14edebea1b02bacef035
   version: '1'
@@ -36,6 +42,12 @@
   author: spworker2026
   introduction: 管理多个收发签到账户，保留邮件、网盘、管理和历史密钥等原有功能。
   minimum_sp_version: 3.0-beta-1
+  releases:
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-checkin-client-v1.1.pkg?sha=21ad27f694409b5d0cf22a22161b0e66a66f520f46e6b942dad7fffac8e0dd68
+    version: '1.1'
+    api_version: 1
+    minimum_sp_version: 3.0-beta-1
+    sha256: 21ad27f694409b5d0cf22a22161b0e66a66f520f46e6b942dad7fffac8e0dd68
 - name: sp-火云隧道
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloudflare-tunnel-v1.pkg?sha=19effd4fe90c39cb4a6df1ac58734c7c67847d44cacf0d9e80a84b21d90a8e6d
   version: '1'
@@ -195,3 +207,8 @@
     api_version: 6
     minimum_sp_version: 3.0-beta-8
     sha256: 69fc713498ceb3457b5764306d6b37e1bda1ca79c63015d6a7b1969878423fd1
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-update-linux-ab-system-v1.11.pkg?sha=a9614701e7c17f8de3d7811e92e25437730dac89d7923db4be3565cef9f3bd64
+    version: '1.11'
+    api_version: 6
+    minimum_sp_version: 3.0-beta-8
+    sha256: a9614701e7c17f8de3d7811e92e25437730dac89d7923db4be3565cef9f3bd64
