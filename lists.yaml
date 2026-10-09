@@ -48,6 +48,11 @@
     api_version: 1
     minimum_sp_version: 3.0-beta-1
     sha256: 21ad27f694409b5d0cf22a22161b0e66a66f520f46e6b942dad7fffac8e0dd68
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-checkin-client-v1.2.pkg?sha=e1323e2fc89a73e048cba6f8ed2e7eb3fb2857e4da8f7ee3ce7939a56a2855ee
+    version: '1.2'
+    api_version: 1
+    minimum_sp_version: 3.0-beta-1
+    sha256: e1323e2fc89a73e048cba6f8ed2e7eb3fb2857e4da8f7ee3ce7939a56a2855ee
 - name: sp-火云隧道
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloudflare-tunnel-v1.pkg?sha=19effd4fe90c39cb4a6df1ac58734c7c67847d44cacf0d9e80a84b21d90a8e6d
   version: '1'
