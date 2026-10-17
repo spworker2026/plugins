@@ -23,6 +23,8 @@
     minimum_sp_version: 3.0-beta-5
     sha256: 6d3f238fb81023758f797fcc550968cfe941737b6433af85a159d538d022aafe
 - name: sp-网盘管理
+  deprecated: true
+  deprecation_notice: （已弃用，开发者不再维护，未来会移除，请移至SP新模块“邮空间”使用）
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloud-drive-manager-v1.pkg?sha=34273ce0f22e24a1dc7313dd9d52356b122e2a250aafb4bc2063bf8ad4bf6035
   version: '1'
   sha256: 34273ce0f22e24a1dc7313dd9d52356b122e2a250aafb4bc2063bf8ad4bf6035
@@ -36,6 +38,7 @@
     minimum_sp_version: 3.0-beta-4
     sha256: bf36ff4008e63f6a2a0865a93772c02bf8a9432ccce5c379b5a98098b525c0c9
 - name: sp-收发签到
+  deprecated: true
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-checkin-client-v1.pkg?sha=643ebc287d8beffe55d7822b32b93b9870b6472cda6b14edebea1b02bacef035
   version: '1'
   sha256: 643ebc287d8beffe55d7822b32b93b9870b6472cda6b14edebea1b02bacef035
@@ -54,6 +57,7 @@
     minimum_sp_version: 3.0-beta-1
     sha256: e1323e2fc89a73e048cba6f8ed2e7eb3fb2857e4da8f7ee3ce7939a56a2855ee
 - name: sp-火云隧道
+  deprecated: true
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-cloudflare-tunnel-v1.pkg?sha=19effd4fe90c39cb4a6df1ac58734c7c67847d44cacf0d9e80a84b21d90a8e6d
   version: '1'
   sha256: 19effd4fe90c39cb4a6df1ac58734c7c67847d44cacf0d9e80a84b21d90a8e6d
@@ -61,6 +65,7 @@
   introduction: 管理 Cloudflare 隧道，首次使用时按当前平台可信下载并校验官方 cloudflared。
   minimum_sp_version: 3.0-beta-1
 - name: sp-管理Deno
+  deprecated: true
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-deno-manager-v1.pkg?sha=a8c82dd7c6c51401f5741580b58f1d21da86f23c759295f37e4db7ee69dfc6a9
   version: '1'
   sha256: a8c82dd7c6c51401f5741580b58f1d21da86f23c759295f37e4db7ee69dfc6a9
