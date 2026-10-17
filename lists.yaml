@@ -122,6 +122,11 @@
     api_version: 7
     minimum_sp_version: 3.0-beta-9
     sha256: dd7c9d88025fb006c99f44741bdc9d2bb7fc8e363c566b552f5b2e1a6f20f871
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.16.pkg?sha=eef3b1b20f068814e7fcc8f8375fe8b10d2a2cc84a7c042372aa8a503a1c629c
+    version: '1.16'
+    api_version: 7
+    minimum_sp_version: 3.0-beta-9
+    sha256: eef3b1b20f068814e7fcc8f8375fe8b10d2a2cc84a7c042372aa8a503a1c629c
   candidate:
     package: https://raw.githubusercontent.com/spworker2026/plugins/main/candidate-packages/sp-ytb-download-v1.9.pkg?sha=4422adbf69d3053d2cd8ee7c6d6502fc193348c73824ba619b6119ac70a5dbc0
     version: '1.9'
