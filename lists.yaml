@@ -79,6 +79,12 @@
   author: spworker2026
   introduction: 提供原有命令解析、操控和结果返回能力，业务实现完全位于外置插件中。
   minimum_sp_version: 3.0-beta-1
+  releases:
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-command-control-v1.1.pkg?sha=307b3250367c74cec1029e04dda0c8107d35ef85b19615219b1845f31508ddca
+    version: '1.1'
+    api_version: 1
+    minimum_sp_version: 3.0-beta-1
+    sha256: 307b3250367c74cec1029e04dda0c8107d35ef85b19615219b1845f31508ddca
 - name: sp-YTB下载
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-ytb-download-v1.7.pkg?sha=fe426dd945b3a23106cab25b4d8d9efe363da59d3ddc873d65eaa33246c1ff84
   version: '1.7'
@@ -146,6 +152,11 @@
     api_version: 5
     minimum_sp_version: 3.0-beta-5
     sha256: 6459c4096e253af272ccc7149c967c8a1c621137d0685fb9ba6a15e26e8b3218
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.4.pkg?sha=b39e1499347ea5d43bdbef238d307f094471092f529c7b6872e3da9304b43acd
+    version: '1.4'
+    api_version: 5
+    minimum_sp_version: 3.0-beta-5
+    sha256: b39e1499347ea5d43bdbef238d307f094471092f529c7b6872e3da9304b43acd
 - name: sp-执行脚本
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.1.pkg?sha=961990b7fa1180de98d0f47726740ac1a717cd4a52afe7080b5145d26ce25c3b
   version: '1.1'
@@ -232,3 +243,8 @@
     api_version: 6
     minimum_sp_version: 3.0-beta-8
     sha256: a9614701e7c17f8de3d7811e92e25437730dac89d7923db4be3565cef9f3bd64
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-update-linux-ab-system-v1.12.pkg?sha=1657c8344f979e73cecf64ed95a6c3f6004784859f4eb919ccc319bb2160caa0
+    version: '1.12'
+    api_version: 6
+    minimum_sp_version: 3.0-beta-8
+    sha256: 1657c8344f979e73cecf64ed95a6c3f6004784859f4eb919ccc319bb2160caa0
