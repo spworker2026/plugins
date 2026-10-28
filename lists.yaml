@@ -157,6 +157,11 @@
     api_version: 5
     minimum_sp_version: 3.0-beta-5
     sha256: b39e1499347ea5d43bdbef238d307f094471092f529c7b6872e3da9304b43acd
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-online-translate-v1.5.pkg?sha=03d1ef9e1b19be3749eb6ad42d4488cd3cb85fc6b69c86711c909e79ef0c1da5
+    version: '1.5'
+    api_version: 5
+    minimum_sp_version: 3.0-beta-5
+    sha256: 03d1ef9e1b19be3749eb6ad42d4488cd3cb85fc6b69c86711c909e79ef0c1da5
 - name: sp-执行脚本
   package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-script-runner-v1.1.pkg?sha=961990b7fa1180de98d0f47726740ac1a717cd4a52afe7080b5145d26ce25c3b
   version: '1.1'
