@@ -176,6 +176,16 @@
   author: spworker2026
   introduction: 通过 SP 系统公共能力列出并重启网络接口。
   minimum_sp_version: 3.0-beta-1
+  releases:
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-WiFi%E5%B7%A5%E5%85%B7-v1.1.pkg?sha=c12d575ddab4ebec54f5debd1d721f82e48455eefd5a5773dd747f8d4bade819
+    version: '1.1'
+    api_version: 22
+    minimum_sp_version: '3.1'
+    sha256: c12d575ddab4ebec54f5debd1d721f82e48455eefd5a5773dd747f8d4bade819
+    introduction: 提供重启网络接口以及断开 WiFi 并清理已保存记录。
+    name: sp-WiFi工具
+    previous_names:
+    - sp-重启网络接口
 - name: SP-谷歌网盘下载
   package: https://github.com/ggwpcj/sp-plugin-library/releases/download/v1.2/sp-gdrive-downloader-v1.2.pkg
   version: '1.2'
