@@ -22,6 +22,11 @@
     api_version: 5
     minimum_sp_version: 3.0-beta-5
     sha256: 6d3f238fb81023758f797fcc550968cfe941737b6433af85a159d538d022aafe
+  - package: https://raw.githubusercontent.com/spworker2026/plugins/main/packages/sp-random-browser-v1.11.pkg?sha=0e75e32f835fe9d83b2ed474ccd56aef467734bf5520c6073355c033233258a7
+    version: '1.11'
+    api_version: 5
+    minimum_sp_version: 3.0-beta-5
+    sha256: 0e75e32f835fe9d83b2ed474ccd56aef467734bf5520c6073355c033233258a7
 - name: sp-网盘管理
   deprecated: true
   deprecation_notice: （已弃用，开发者不再维护，未来会移除，请移至SP新模块“邮空间”使用）
